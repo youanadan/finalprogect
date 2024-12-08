@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Greek Travel Booking</title>
+    <link rel="stylesheet" href="bookme.css">
+</head>
+<body>
+    <header>
+        <h1>Greek Travel Booking</h1>
+        <p>Book your perfect Greek getaway</p>
+    </header>
+
+    <main>
+        <form id="bookingForm">
+            <div class="form-group">
+                <label for="destination">Destination</label>
+                <select id="destination" name="destination" required>
+                    <option value="">Select a destination</option>
+                    <option value="Athens">Athens</option>
+                    <option value="Santorini">Santorini</option>
+                    <option value="Mykonos">Mykonos</option>
+                    <option value="Crete">Crete</option>
+                </select>
+            </div>
+            <br><br><br><br>
+            <div class="form-group">
+                <label for="startDate">Check-in Date</label>
+                <input type="date" id="startDate" name="startDate" required>
+            </div>
+            <br><br><br><br>
+            <div class="form-group">
+                <label for="endDate">Check-out Date</label>
+                <input type="date" id="endDate" name="endDate" required>
+            </div>
+            <br><br><br><br>
+            <div class="form-group">
+                <label for="people">Number of People</label>
+                <input type="number" id="people" name="people" min="1" required>
+            </div>
+            <br><br><br><br>
+
+            <div class="form-group">
+                <label for="email">Your Email</label>
+                <input type="email" id="email" name="email" required>
+            </div>
+            <br><br><br><br>
+            <div class="form-group">
+                <button type="submit" id="submitBtn">Book Now</button>
+            </div>
+        </form>
+
+        <div id="confirmation" class="hidden">
+            <h2>Your Booking</h2>
+            <p id="confirmationDetails"></p>
+        </div>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Greek Travel Agency</p>
+    </footer>
+    <script src="https://cdn.emailjs.com/dist/email.min.js"></script>
+    <script src="scriptone.js"></script>
+</body>
+</html>
