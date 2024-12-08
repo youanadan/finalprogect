@@ -1,0 +1,224 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: lightblue;
+    padding: 20px;
+    text-align: center;
+}
+
+nav a {
+    margin: 0 15px;
+    text-decoration: none;
+    color: rgb(8, 8, 8);
+    font-weight: bold;
+}
+
+nav a:hover {
+    color: darkblue;
+    text-decoration: underline;
+}
+
+h1, h2 {
+    text-align: center;
+}
+
+footer {
+    background-color: rgb(135, 131, 131);
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+.center {
+    display: block;
+    margin: 20px auto;
+    width: 60%;
+}
+
+form {
+    max-width: 500px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    background-color: lightyellow;
+}
+
+form label {
+    display: block;
+    margin: 10px 0 5px;
+}
+
+form input, form textarea, form button {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+}
+
+form button {
+    background-color: lightblue;
+    border: none;
+    cursor: pointer;
+}
+
+form button:hover {
+    background-color: deepskyblue;
+    color: white;
+}
+
+/* Navigation Bar */
+nav {
+    margin: 20px 0;
+}
+
+nav a {
+    margin: 0 15px;
+    text-decoration: none;
+    color: black;
+    background-color: lightyellow;
+    padding: 10px 20px;
+    border-radius: 5px;
+}
+
+nav a:hover {
+    background-color: gold;
+    color: white;
+}
+
+/* Main Content */
+main {
+    padding: 20px;
+}
+
+h2, h3 {
+    text-align: center;
+    color: #333;
+    margin-top: 40px;
+}
+
+/* Tour Guides Section */
+.tour-guide {
+    text-align: left;
+    margin: 40px auto;
+    max-width: 800px;
+    background-color: #38c2fd;
+    border: 1px solid #080808;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.tour-guide p {
+    margin: 10px 0;
+    line-height: 1.8;
+    font-size: 1.1em;
+}
+
+/* Travel Tips Section */
+.travel-tips {
+    text-align: left;
+    margin: 40px auto;
+    max-width: 800px;
+    background-color: #fcfa93;
+    border: 1px solid #0c0c0c;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.travel-tips ul {
+    list-style-type: disc;
+    padding-left: 40px;
+}
+
+.travel-tips ul li {
+    margin: 10px 0;
+    line-height: 1.8;
+    font-size: 1.1em;
+}
+
+/* Form Styling */
+#loginform {
+    background-color: lightyellow;
+    padding: 20px;
+    margin: 20px auto;
+    max-width: 400px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    text-align: center;
+}
+
+#loginform label {
+    display: block;
+    margin: 10px 0 5px;
+    font-weight: bold;
+}
+
+#loginform input {
+    width: calc(100% - 20px);
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+#loginform button {
+    background-color: lightblue;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#loginform button:hover {
+    background-color: rgb(40, 199, 252);
+    color: rgb(248, 11, 11);
+}
+
+/* Center Image */
+.center {
+    display: block;
+    margin: 40px auto;
+    width: 80%;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+/* Footer */
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+}
+
+footer a {
+    color: lightblue;
+    text-decoration: none;
+    margin: 0 5px;
+}
+
+footer a:hover {
+    text-decoration: underline;}
+
+
+
+    /* Top Attractions Box Styling */
+.top-attractions {
+    text-align: center; /* Centers the content horizontally */
+    max-width: 800px; /* Limits the width of the box */
+    margin: 20px auto; /* Centers the box on the page */
+    background-color: #f28c8c; /* Baby red background */
+    padding: 20px; /* Adds space inside the box */
+    border-radius: 10px; /* Rounds the corners of the box */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Adds a subtle shadow for depth */
+    color: black; /* Ensures the text inside is black */
+    font-size: 1.1em; /* Slightly increases text size */
+    line-height: 1.6; /* Improves text readability */
+}

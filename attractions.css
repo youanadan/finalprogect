@@ -1,0 +1,70 @@
+/* General Reset */
+body, h1, h2, p {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    color: #1287fd;
+    background-color: #f5f5f5;
+    margin: 0;
+}
+
+header {
+    background: #c4f4a6ed;
+    color: rgb(16, 15, 15);
+    padding: 20px 10px;
+    text-align: center;
+}
+
+main {
+    padding: 20px;
+}
+
+.hotel-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+}
+
+.hotel {
+    background: white;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(252, 179, 179, 0.1);
+    overflow: hidden;
+    width: 300px;
+    text-align: center;
+}
+
+.hotel img {
+    width: 100%;
+    height: auto;
+}
+
+.hotel h2 {
+    background: #aef9b0;
+    color: rgb(12, 12, 12);
+    padding: 10px;
+}
+
+.hotel p {
+    padding: 10px;
+    font-size: 14px;
+}
+
+button {
+    background: #bdfabf;
+    color: rgb(11, 11, 11);
+    border: none;
+    padding: 10px 20px;
+    margin-bottom: 10px;
+    cursor: pointer;
+    border-radius: 4px;
+}
+
+button:hover {
+    background: #aafcaf;
+}
